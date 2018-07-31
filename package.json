@@ -1,6 +1,10 @@
 {
   "name": "vue-plugin-starter",
   "version": "0.0.0-development",
+  "author": {
+    "name": "David Royer",
+    "email": "droyer01@gmail.com"
+  },
   "private": false,
   "scripts": {
     "commit": "git-cz",

@@ -1,8 +1,10 @@
 # vue-plugin-starter
 
-[![GitHub open issues](https://img.shields.io/github/issues/David Royer/vue-plugin-starter.svg?maxAge=2592000)](https://github.com/David Royer/vue-plugin-starter/issues)
+[![GitHub open issues](https://img.shields.io/github/issues/davidroyer/vue-plugin-starter.svg?maxAge=2592000)](https://github.com/davidroyer/vue-plugin-starter/issues)
+
 [![Npm version](https://img.shields.io/npm/v/vue-plugin-starter.svg?maxAge=2592000)](https://www.npmjs.com/package/vue-plugin-starter)
-[![MIT License](https://img.shields.io/github/license/David Royer/vue-plugin-starter.svg)](https://github.com/David Royer/vue-plugin-starter/blob/master/LICENSE)
+
+[![MIT License](https://img.shields.io/github/license/davidroyer/vue-plugin-starter.svg)](https://github.com/davidroyer/vue-plugin-starter/blob/master/LICENSE)
 
 ## Usage
 
@@ -11,104 +13,104 @@
 ```
 
 ```javascript
-import { VEditor } from 'vue-plugin-starter'
+import { VEditor } from "vue-plugin-starter";
 
 export default {
   components: {
     VEditor
   }
-}
+};
 ```
 
 ## API
 
-### v-editor 
+### v-editor
 
-An Amazing Editor Component 
+An Amazing Editor Component
 
-- **author** - David Royer 
-- **license** - MIT 
-- **VEditor** 
+- **author** - David Royer
+- **license** - MIT
+- **VEditor**
 
-#### slots 
+#### slots
 
-- `default`  
+- `default`
 
-- `label` Use this slot to set the checkbox label 
+- `label` Use this slot to set the checkbox label
 
-#### props 
+#### props
 
-- `msg` ***String*** (*optional*) 
+- `msg` **_String_** (_optional_)
 
-   Test prop for unit tests 
+  Test prop for unit tests
 
-- `model` ***Array*** (*optional*) 
+- `model` **_Array_** (_optional_)
 
-   The checkbox model 
+  The checkbox model
 
-- `disabled` ***Boolean*** (*optional*) 
+- `disabled` **_Boolean_** (_optional_)
 
-   Initial checkbox state 
+  Initial checkbox state
 
-- `enabled` ***Boolean*** (*optional*) `default: true` 
+- `enabled` **_Boolean_** (_optional_) `default: true`
 
-   Initial checkbox value 
+  Initial checkbox value
 
-- `label` ***String*** (*optional*) `default: 'Unamed checkbox'` 
+- `label` **_String_** (_optional_) `default: 'Unamed checkbox'`
 
-   The checkbox label 
+  The checkbox label
 
-- `object` ***Object*** (*optional*) `default: null` 
+- `object` **_Object_** (_optional_) `default: null`
 
-- `bool-false` ***Boolean*** (*optional*) `default: false` 
+- `bool-false` **_Boolean_** (_optional_) `default: false`
 
-#### data 
+#### data
 
-- `initialValue` 
+- `initialValue`
 
-   The initial component value. Used to detect changes and restore the initial value. 
+  The initial component value. Used to detect changes and restore the initial value.
 
-**initial value:** `'The initial value!'` 
+**initial value:** `'The initial value!'`
 
-- `currentValue` 
+- `currentValue`
 
-**initial value:** `'And the current value!'` 
+**initial value:** `'And the current value!'`
 
-#### computed properties 
+#### computed properties
 
-- `id` 
+- `id`
 
-   The component identifier. Generated using the `initialValue` data. 
+  The component identifier. Generated using the `initialValue` data.
 
-   **dependencies:** `initialValue` 
+  **dependencies:** `initialValue`
 
-- `changed` 
+- `changed`
 
-   **dependencies:** `currentValue`, `initialValue` 
+  **dependencies:** `currentValue`, `initialValue`
 
-- `withNoDependencies` 
+- `withNoDependencies`
 
-#### events 
+#### events
 
-- `loaded` 
+- `loaded`
 
-   Emitted when the component has been loaded 
+  Emitted when the component has been loaded
 
-- `enabled` 
+- `enabled`
 
-   Emitted the event `enabled` when loaded Multilign 
+  Emitted the event `enabled` when loaded Multilign
 
-#### methods 
+#### methods
 
-- `check()` 
+- `check()`
 
-   Check if the input is checked 
+  Check if the input is checked
 
-- `prop()` 
+- `prop()`
 
-- `enable(value)` 
+- `enable(value)`
 
-   Enable the checkbox 
+  Enable the checkbox
 
 ## Installation
 
