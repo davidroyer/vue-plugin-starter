@@ -1,5 +1,3 @@
-import VEditor from './components/VEditor.vue';
+import VEditor from "./components/VEditor.vue";
 
-export {
-    VEditor
-}
+export { VEditor };
