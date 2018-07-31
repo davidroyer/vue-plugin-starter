@@ -1,17 +1,18 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <VEditor msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+/* eslint-disable */
+import VEditor from "@/components/VEditor.vue";
 
 export default {
   name: "app",
   components: {
-    HelloWorld
+    VEditor
   }
 };
 </script>
