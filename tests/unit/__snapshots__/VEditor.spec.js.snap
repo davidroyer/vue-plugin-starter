@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VEditor.vue renders component 1`] = `
+<label>
+  <h1>
+    
+  </h1>
+   
+  <input
+    id="checkbox-The initial value!"
+    type="text"
+  />
+    
+</label>
+`;
