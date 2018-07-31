@@ -62,9 +62,6 @@
     "vue",
     "component"
   ],
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/davidroyer/vue-plugin-starter.git"
