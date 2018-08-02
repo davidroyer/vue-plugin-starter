@@ -1,5 +1,7 @@
 # vue-plugin-starter
 
+## NEWWW
+
 [![GitHub open issues](https://img.shields.io/github/issues/davidroyer/vue-plugin-starter.svg?maxAge=2592000)](https://github.com/davidroyer/vue-plugin-starter/issues)
 
 [![Npm version](https://img.shields.io/npm/v/vue-plugin-starter.svg?maxAge=2592000)](https://www.npmjs.com/package/vue-plugin-starter)
