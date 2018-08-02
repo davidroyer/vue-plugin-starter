@@ -12,7 +12,6 @@
     "build": "vue-cli-service build --name vue-plugin-starter --entry ./src/index.js --target lib",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
-    "prepublishOnly": "npm run build && npm run doc:build",
     "styleguide": "vue-styleguidist server",
     "styleguide:build": "vue-styleguidist build",
     "docs:build": "npx vuedoc.md ./src/components/*.vue --output docs/components/",
