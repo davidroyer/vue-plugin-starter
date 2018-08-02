@@ -122,17 +122,7 @@ export default {
 
     // Another ignored method
     // @private
-    anotherIgnored() {},
-
-    // Enable the checkbox
-    enable(value) {
-      const x = true;
-      /**
-       * Emitted the event `enabled` when loaded
-       * Multilign
-       */
-      this.$emit("enabled", x);
-    }
+    anotherIgnored() {}
   }
 };
 </script>
