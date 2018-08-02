@@ -8,8 +8,7 @@
       v-on="listeners"
       v-bind="$attrs"
       ref="input"
-      class="v-input"
-    >
+      class="v-input">
   </div>
 </template>
 

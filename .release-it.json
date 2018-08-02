@@ -7,7 +7,8 @@
   "safeBump": false,
   "requireUpstream": false,
   "github": {
-    "release": true
+    "release": true,
+    "tokenRef": "GITHUB_TOKEN"
   },
   "buildCommand": "npm run build"
 }
