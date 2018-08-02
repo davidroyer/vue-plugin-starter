@@ -1160,6 +1160,10 @@ acorn@^5.0.0, acorn@^5.0.3, acorn@^5.3.0, acorn@^5.4.1, acorn@^5.5.0, acorn@^5.5
   version "5.7.1"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.1.tgz#f095829297706a7c9776958c0afc8930a9b9d9d8"
 
+add-stream@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/add-stream/-/add-stream-1.0.0.tgz#6a7990437ca736d5e1288db92bd3266d5f5cb2aa"
+
 address@1.0.3, address@^1.0.1, address@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/address/-/address-1.0.3.tgz#b5f50631f8d6cec8bd20c963963afb55e06cbce9"
@@ -3214,6 +3218,16 @@ conventional-changelog-atom@^2.0.0:
   dependencies:
     q "^1.5.1"
 
+conventional-changelog-cli@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/conventional-changelog-cli/-/conventional-changelog-cli-2.0.1.tgz#1bceb924a063b05757e131e93d6674bd7d3f5bc7"
+  dependencies:
+    add-stream "^1.0.0"
+    conventional-changelog "^2.0.1"
+    lodash "^4.2.1"
+    meow "^4.0.0"
+    tempfile "^1.1.1"
+
 conventional-changelog-codemirror@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/conventional-changelog-codemirror/-/conventional-changelog-codemirror-2.0.0.tgz#bfb61ccabacdd3bf8425a5cbe92276c86c5a0c1e"
@@ -3294,7 +3308,7 @@ conventional-changelog-writer@^4.0.0:
     split "^1.0.0"
     through2 "^2.0.0"
 
-conventional-changelog@2.0.1:
+conventional-changelog@2.0.1, conventional-changelog@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/conventional-changelog/-/conventional-changelog-2.0.1.tgz#0d8f0f9668eaeaa5edd612896e7f3cc4385b31c9"
   dependencies:
@@ -11176,6 +11190,13 @@ temp-path@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/temp-path/-/temp-path-1.0.0.tgz#24b1543973ab442896d9ad367dd9cbdbfafe918b"
 
+tempfile@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/tempfile/-/tempfile-1.1.1.tgz#5bcc4eaecc4ab2c707d8bc11d99ccc9a2cb287f2"
+  dependencies:
+    os-tmpdir "^1.0.0"
+    uuid "^2.0.1"
+
 term-size@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/term-size/-/term-size-1.2.0.tgz#458b83887f288fc56d6fffbfad262e26638efa69"
@@ -11767,6 +11788,10 @@ utils-merge@1.0.1:
 uuid@3.3.2, uuid@^3.0.0, uuid@^3.0.1, uuid@^3.1.0:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
+
+uuid@^2.0.1:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-2.0.3.tgz#67e2e863797215530dff318e5bf9dcebfd47b21a"
 
 validate-npm-package-license@^3.0.1:
   version "3.0.3"
