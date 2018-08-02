@@ -11,7 +11,7 @@ describe("VInput.vue", () => {
     const wrapper = mount(VInput, {
       propsData: { value: "Initial input value" }
     });
-    console.log(wrapper.vm);
+
     expect(wrapper.vm.value).toBe("Initial input value");
     // const inputEl = wrapper.find('.v-input')
     // expect(wrapper.text()).toEqual(value);
