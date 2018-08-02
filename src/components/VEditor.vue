@@ -79,7 +79,7 @@ export default {
        */
       initialValue: "The initial value!",
       currentValue: "And the current value!",
-      test1: "fix"
+      test1: "fix",
       test2: "refactor"
     };
   },
