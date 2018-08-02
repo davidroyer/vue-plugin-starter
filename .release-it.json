@@ -8,7 +8,7 @@
   "requireUpstream": false,
   "github": {
     "release": true,
-    "tokenRef": "GH_TOKEN"
+    "tokenRef": "GITHUB_TOKEN"
   },
   "buildCommand": "npm run build"
 }
