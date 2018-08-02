@@ -78,7 +78,8 @@ export default {
        * Used to detect changes and restore the initial value.
        */
       initialValue: "The initial value!",
-      currentValue: "And the current value!"
+      currentValue: "And the current value!",
+      test1: "fix"
     };
   },
 
