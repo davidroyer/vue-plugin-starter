@@ -1,6 +1,6 @@
 {
   "name": "vue-plugin-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "David Royer",
     "email": "droyer01@gmail.com"
@@ -18,7 +18,8 @@
     "docs:build": "npx vuedoc.md ./src/components/*.vue --output docs/components/",
     "doc:comp": "npx vuedoc.md --section API --output ./README.md ./src/components/VEditor.vue",
     "travis-deploy-once": "travis-deploy-once",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "release": "release-it"
   },
   "dependencies": {
     "vue": "^2.5.16"
