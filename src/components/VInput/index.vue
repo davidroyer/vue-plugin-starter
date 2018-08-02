@@ -13,13 +13,6 @@
 </template>
 
 <script>
-/**
- * The custom HTML `<input>` component.
- * @example
- * <div>
- *   <v-input id="inputExample" label="My Input Example"></v-input>
- * </div>
- */
 export default {
   name: "VInput",
   inheritAttrs: false,
