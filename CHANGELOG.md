@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/davidroyer/vue-plugin-starter/compare/1.1.0...1.1.1) (2018-08-02)
+
+
+### Bug Fixes
+
+* **dependencies:** Added conventional-changelog-cli ([ce6069a](https://github.com/davidroyer/vue-plugin-starter/commit/ce6069a))
+
+
+
 # [1.1.0](https://github.com/davidroyer/vue-plugin-starter/compare/1.0.9...1.1.0) (2018-08-02)
 
 
