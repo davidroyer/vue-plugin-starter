@@ -62,6 +62,17 @@ export default {
     }
   },
 
+  data() {
+    return {
+      /**
+       * The initial component value.
+       * Used to detect changes and restore the initial value.
+       */
+      test1: "fix",
+      test2: "refactor"
+    };
+  },
+
   methods: {
     /**
      * Sets focus on input.
