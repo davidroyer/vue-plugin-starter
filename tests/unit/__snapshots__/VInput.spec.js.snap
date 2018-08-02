@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VInput.vue renders component 1`] = `
+<div
+  class="v-input-wrapper"
+>
+  <label />
+   
+  <input
+    class="v-input"
+    type="text"
+  />
+</div>
+`;
