@@ -1,10 +1,12 @@
 {
   "pkgFiles": ["package.json"],
+  "increment": "conventional:angular",
+  "beforeChangelogCommand": "conventional-changelog -p angular -i CHANGELOG.md -s",
+  "changelogCommand": "conventional-changelog -p angular | tail -n +3",
   "safeBump": false,
   "requireUpstream": false,
   "github": {
-    "release": true,
-    "tokenRef": "GITHUB_TOKEN"
+    "release": true
   },
   "buildCommand": "npm run build"
 }
