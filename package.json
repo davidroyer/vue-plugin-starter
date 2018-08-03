@@ -1,6 +1,6 @@
 {
   "name": "vue-plugin-starter",
-  "version": "1.2.1",
+  "version": "1.2.0",
   "author": {
     "name": "David Royer",
     "email": "droyer01@gmail.com"
@@ -14,8 +14,6 @@
     "build": "vue-cli-service build --name vue-plugin-starter --entry ./src/index.js --target lib",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit --coverage",
-    "styleguide": "vue-styleguidist server",
-    "styleguide:build": "vue-styleguidist build",
     "docs:build": "npx vuedoc.md ./src/components/*.vue --output docs/components/",
     "doc:comp": "npx vuedoc.md --section API --output ./README.md ./src/components/VEditor.vue",
     "release": "release-it",
@@ -43,6 +41,7 @@
     "sass-loader": "^7.0.1",
     "travis-deploy-once": "^5.0.1",
     "vue-cli-plugin-component": "^1.7.1",
+    "vue-styleguidist": "^1.7.13",
     "vue-template-compiler": "^2.5.16"
   },
   "license": "MIT",

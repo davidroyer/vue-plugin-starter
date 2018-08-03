@@ -1,11 +1,14 @@
 {
+  "non-interactive": ture,
   "pkgFiles": ["package.json"],
   "increment": "conventional:angular",
-  "beforeStartCommand": "npm run test:unit",
   "beforeChangelogCommand": "conventional-changelog -p angular -i CHANGELOG.md -s",
   "changelogCommand": "conventional-changelog -p angular | tail -n +3",
   "safeBump": false,
   "requireUpstream": false,
+  "src": {
+    "beforeStartCommand": "npm run test:unit"
+  },
   "github": {
     "release": true,
     "tokenRef": "GITHUB_TOKEN"
