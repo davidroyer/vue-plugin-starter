@@ -4,6 +4,8 @@
 
 **Used travis setup release**
 
+Using release-it from command line
+
 <!-- Adding
 
 - `git tag -a v1.2 -m "Travis Release 1.2"`
