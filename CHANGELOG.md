@@ -1,3 +1,17 @@
+# [1.2.0](https://github.com/davidroyer/vue-plugin-starter/compare/1.1.5...1.2.0) (2018-08-03)
+
+
+### Bug Fixes
+
+* **release:** Added GITHUB_TOKEN back due to errors recieved ([e5884fb](https://github.com/davidroyer/vue-plugin-starter/commit/e5884fb))
+
+
+### Features
+
+* **project:** Added code coverage ([0ee1137](https://github.com/davidroyer/vue-plugin-starter/commit/0ee1137))
+
+
+
 ## [1.1.5](https://github.com/davidroyer/vue-plugin-starter/compare/1.1.4...1.1.5) (2018-08-03)
 
 
