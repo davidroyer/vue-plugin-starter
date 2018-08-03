@@ -13,5 +13,15 @@ module.exports = {
   testMatch: [
     "**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)"
   ],
-  testURL: "http://localhost/"
+  testURL: "http://localhost/",
+  transformIgnorePatterns: ["<rootDir>/node_modules/"],
+  coverageThreshold: {
+    global: {
+      branches: 10,
+      functions: 10,
+      lines: 10,
+      statements: 10
+    }
+  }
+  // collectCoverageFrom: ["src/**/*.js"]
 };

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1533269234022" clover="3.2.0">
+  <project timestamp="1533269234022" name="All files">
+    <metrics statements="12" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="5" elements="25" coveredelements="11" complexity="0" loc="12" ncloc="12" packages="2" files="2" classes="2">
+      <package name="components">
+        <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="3"/>
+        <file name="VEditor.vue" path="/Users/droyer/repos/vue-plugin-starter/src/components/VEditor.vue">
+          <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="3"/>
+          <line num="71" count="2" type="stmt"/>
+          <line num="75" count="2" type="stmt"/>
+          <line num="93" count="2" type="stmt"/>
+          <line num="97" count="0" type="stmt"/>
+          <line num="101" count="0" type="stmt"/>
+          <line num="110" count="0" type="stmt"/>
+          <line num="114" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="components.VInput">
+        <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+        <file name="index.vue" path="/Users/droyer/repos/vue-plugin-starter/src/components/VInput/index.vue">
+          <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+          <line num="49" count="2" type="stmt"/>
+          <line num="50" count="2" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="58" count="2" type="stmt"/>
+          <line num="81" count="0" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

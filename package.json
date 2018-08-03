@@ -1,6 +1,6 @@
 {
   "name": "vue-plugin-starter",
-  "version": "1.1.5",
+  "version": "1.1.4",
   "author": {
     "name": "David Royer",
     "email": "droyer01@gmail.com"
@@ -8,12 +8,13 @@
   "private": false,
   "scripts": {
     "dev": "yarn serve",
-    "commit": "git-cz -a",
+    "commit": "git-cz",
     "commit:add": "git add . && git-cz",
     "serve": "vue-cli-service serve ./example/main.js --open",
     "build": "vue-cli-service build --name vue-plugin-starter --entry ./src/index.js --target lib",
     "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit",
+    "test:unit": "vue-cli-service test:unit --coverage",
+    "test2": "jest --config jest.config.js --coverage",
     "styleguide": "vue-styleguidist server",
     "styleguide:build": "vue-styleguidist build",
     "docs:build": "npx vuedoc.md ./src/components/*.vue --output docs/components/",

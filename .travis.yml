@@ -1,16 +1,15 @@
 language: node_js
 cache:
   directories:
-  - "~/.npm"
+    - ~/.npm
 notifications:
   email: false
 node_js:
-- '8'
+  - '8'
 script:
-- npm run test:unit
-deploy:
-  provider: releases
-  api_key:
-    secure: BEIgBnNK5CWNVopjr7Bb6fP1cD2p3hWsfovSGdGb4gyeSp0RovH/87z/BoO1v8NA8moQ4C9nnRIcJr9/cfr/XiLLOBNUdJ1KL8U9p0DS4fRzZj+8JZ83aVZQw66QuKWvTomJQj2PbDQTRAQ0QANxCtDdQA8D0xh8B0m7+zkMcUHS3yIxeMZa8oaZnHIthokVeFdxqIxHLlgGSY99adPMCiMfzVh76enInQpRmHEAS+1FaN6zHuOMk1kaQzI9igbHejk2UheZ6XqCiH2toKTZulT/H9Hlea1AFT7YLt5qPXcbW+YoVrPksCtHXqnKd3+G83pkA5sLAKIrBTmlFsBLcBFvYXFkRLZCgHWkGapDOBX1XpVWPW5+uGauqvQXDL+8G//I/JRcbdmYwOJU8Mi4vyPDYz8Z3mLcxdJNmB6yzohhAonghZo38vwRvIocQvKbkQrVGChmm2SMJ90evBVO/3eNbXqNu33ut6RQqAaM8NWCRYALkLDQ7Cc7Fbzjx9FJEScHv5/cp4WSNl0IV4OnhdtE+GMhOG552JatDlbY+Zk1B7whkZnS0V9Yf+YytuE1fph9xXUvmfXXRT5NZ7vG4GcSca8o9HfCV54Fc7B7N+YNf4O5E3KmImL0J/0mXoq9P5s76TkZ2upILzGL3071tvcFvN97ddQ7zjvM7d2Qag8=
-  on:
-    repo: davidroyer/vue-plugin-starter
+  - npm run test:unit
+# after_success:
+#   - npm run release
+# branches:
+#   except:
+#     - /^v\d+\.\d+\.\d+$/

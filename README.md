@@ -2,11 +2,16 @@
 
 ## Notes
 
-**Used travis setup release**
+Releasing pre-release:
+`release-it major --preRelease=beta`
 
-Using release-it from command line
+Results In: `2.0.0-beta.0`
 
-_Fixing release notes!_
+Then after that, you don't need to include the type of update (such as `major` used here).
+
+`release-it --preRelease=beta`
+
+Results In: `2.0.0-beta.0`
 
 <!-- Adding
 
