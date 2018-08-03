@@ -1,3 +1,7 @@
+## [1.1.3](https://github.com/davidroyer/vue-plugin-starter/compare/1.1.1...1.1.3) (2018-08-03)
+
+
+
 ## [1.1.1](https://github.com/davidroyer/vue-plugin-starter/compare/1.1.0...1.1.1) (2018-08-02)
 
 
