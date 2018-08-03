@@ -1,3 +1,12 @@
+## [1.1.5](https://github.com/davidroyer/vue-plugin-starter/compare/1.1.4...1.1.5) (2018-08-03)
+
+
+### Bug Fixes
+
+* **release-it:** Re-added changelog config ([3d7d23b](https://github.com/davidroyer/vue-plugin-starter/commit/3d7d23b))
+
+
+
 ## [1.1.3](https://github.com/davidroyer/vue-plugin-starter/compare/1.1.1...1.1.3) (2018-08-03)
 
 
