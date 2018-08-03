@@ -1,3 +1,8 @@
+<a name="1.2.1"></a>
+## [1.2.1](https://github.com/davidroyer/vue-plugin-starter/compare/1.2.0...1.2.1) (2018-08-03)
+
+
+
 # [1.2.0](https://github.com/davidroyer/vue-plugin-starter/compare/1.1.5...1.2.0) (2018-08-03)
 
 
