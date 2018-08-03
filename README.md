@@ -2,6 +2,8 @@
 
 ## Notes
 
+new tests
+
 Releasing pre-release:
 `release-it major --preRelease=beta`
 
