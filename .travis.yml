@@ -10,10 +10,10 @@ deploy:
   provider: releases
   user: "davidroyer"
   password: "Dance4life"
-  file: "FILE TO UPLOAD"
   skip_cleanup: true
   on:
     tags: true
+    repo: davidroyer/vue-plugin-starter
 script:
   - npm run test:unit
 # after_success:
