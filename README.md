@@ -13,6 +13,22 @@ Then after that, you don't need to include the type of update (such as `major` u
 
 Results In: `2.0.0-beta.0`
 
+## MAKING IT WORK
+
+### For `release-it`
+
+- Needed to run the following after obtaining the token via Github:
+
+```bash
+export GITHUB_TOKEN="123123123"
+```
+
+- Needed this line for `jest.config.js` to make it work and not through `import` errors:
+
+```js
+transformIgnorePatterns: ["<rootDir>/node_modules/"];
+```
+
 <!-- Adding
 
 - `git tag -a v1.2 -m "Travis Release 1.2"`
