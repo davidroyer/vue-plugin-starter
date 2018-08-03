@@ -1,6 +1,12 @@
 # vue-plugin-starter
 
-## NEWWW
+## Notes
+
+A
+Adding
+
+- `git tag -a v1.2 -m "Travis Release 1.2"`
+- `git push --tags`
 
 [![GitHub open issues](https://img.shields.io/github/issues/davidroyer/vue-plugin-starter.svg?maxAge=2592000)](https://github.com/davidroyer/vue-plugin-starter/issues)
 
