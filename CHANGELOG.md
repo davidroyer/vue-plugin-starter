@@ -1,3 +1,13 @@
+<a name="1.2.3"></a>
+## [1.2.3](https://github.com/davidroyer/vue-plugin-starter/compare/1.2.2...1.2.3) (2018-08-03)
+
+
+### Bug Fixes
+
+* **build:** Testing referencing an issue for a fix ([83ae709](https://github.com/davidroyer/vue-plugin-starter/commit/83ae709)), closes [#1](https://github.com/davidroyer/vue-plugin-starter/issues/1)
+
+
+
 <a name="1.2.2"></a>
 ## [1.2.2](https://github.com/davidroyer/vue-plugin-starter/compare/1.2.1...1.2.2) (2018-08-03)
 
