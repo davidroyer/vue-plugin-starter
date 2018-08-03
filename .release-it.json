@@ -10,5 +10,5 @@
     "release": true,
     "tokenRef": "GITHUB_TOKEN"
   },
-  "buildCommand": "npmz run build"
+  "buildCommand": "npm run build"
 }
