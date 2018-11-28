@@ -4,6 +4,7 @@
     <input
       :type="type"
       :value="value"
+      :id="$attrs.id"
       :name="$attrs.name || $attrs.id"
       v-on="listeners"
       v-bind="$attrs"

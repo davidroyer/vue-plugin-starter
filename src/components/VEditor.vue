@@ -1,7 +1,7 @@
 <template>
 <label>
     <h1>{{ msg }}</h1>
-    <input :id='id' :disabled="disabled" type="text" v-model="checkbox">
+
     <slot></slot>
     <!-- Use this slot to set the checkbox label -->
     <slot name="label"></slot>

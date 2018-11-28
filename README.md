@@ -25,7 +25,7 @@ Results In: `2.0.0-beta.0`
 export GITHUB_TOKEN="123123123"
 ```
 
-- Needed this line for `jest.config.js` to make it work and not through `import` errors:
+- Needed this line for `jest.config.js` to make it work and not throw `import` errors:
 
 ```js
 transformIgnorePatterns: ["<rootDir>/node_modules/"];
