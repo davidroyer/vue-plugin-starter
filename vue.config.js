@@ -1,3 +1,10 @@
 module.exports = {
-  lintOnSave: true
+  lintOnSave: true,
+  // configureWebpack: {
+  //   output: {
+  //     library: "VuePluginStarter",
+  //     filename: "vue-plugin-starter.js",
+  //     libraryExport: "default"
+  //   }
+  // }
 };
