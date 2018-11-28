@@ -1,3 +1,13 @@
+<a name="1.2.4"></a>
+## [1.2.4](https://github.com/davidroyer/vue-plugin-starter/compare/1.2.3...1.2.4) (2018-11-28)
+
+
+### Bug Fixes
+
+* **VInput:** Updated it to make it work properly ([44a690b](https://github.com/davidroyer/vue-plugin-starter/commit/44a690b))
+
+
+
 <a name="1.2.3"></a>
 ## [1.2.3](https://github.com/davidroyer/vue-plugin-starter/compare/1.2.2...1.2.3) (2018-08-03)
 
