@@ -3,6 +3,7 @@
     <img src="./assets/logo.png">
     <VEditor msg="Welcome to Your Vue.js App"/>
     <VInput id="input1" type="text" v-model="input1Val" label="Input 1"/>
+    <div v-html="input1Val"></div>
   </div>
 </template>
 

@@ -12,6 +12,7 @@
     "commit:add": "git add . && git-cz",
     "serve": "vue-cli-service serve ./example/main.js --open",
     "build": "vue-cli-service build --name vue-plugin-starter --entry ./src/index.js --target lib",
+    "build:demo": "vue-cli-service build --dest demo ./example/main.js",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit --coverage",
     "docs:build": "npx vuedoc.md ./src/components/*.vue --output docs/components/",
